@@ -18,7 +18,7 @@ public class OrganizadorHilos {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int vector []={5,6,4,2,7,8};
+        int vector []={5,6,4,2,7,8,20,4};
         int vector1 []= new int [vector.length/2];
 //        System.out.println(vector1.length);
         int vector2 []= new int [vector.length/2];
@@ -30,7 +30,7 @@ public class OrganizadorHilos {
 //        for (int j = 0; j < vector2.length; j++) {
 //            System.out.println("aqui entra ");
 int j=0;
-        for(int i = vector.length/2; i <vector.length ; i++){
+        for(int i = (vector.length/2)+1; i <vector.length ; i++){
             vector2[j]= vector[i];
 //            System.out.println(j+ " este es j");
 //            System.out.println("vector2 "+vector2[j]);
